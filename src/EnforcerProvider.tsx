@@ -2,7 +2,7 @@ import { Enforcer, newEnforcer } from './enforcer/Enforcer';
 import React, { useEffect, useState } from 'react';
 import { Provider } from './injectEnforcer';
 
-interface ProviderProps {
+export interface ProviderProps {
   model: string;
   policy: string;
   sub: string;
